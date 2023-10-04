@@ -71,6 +71,21 @@ export const content = {
         label_singular: "Catégorie",
         description: "Toutes les catégories des parutions"
     },
+    realestates: {
+        label: "Annonces",
+        label_singular: "Annonces",
+        description: "Toutes les annonces immobilières"
+    },
+    realestates_sellers: {
+        label: "Vendeurs",
+        label_singular: "Vendeur",
+        description: "Tous les vendeurs"
+    },
+    realestates_types: {
+        label: "Types d’annonce",
+        label_singular: "Type",
+        description: "Tous les types d’annonce"
+    },
     tags: {
         label: "Tags",
         label_singular: "Tag",

@@ -6,6 +6,9 @@ export const fields = {
             zipcode: "Code postal",
             city: "Ville",
             country: "Pays",
+            coordinates: "Coordonnées géographique",
+            lat: "Latitude",
+            lng: "Longitude",
         }
     },
     align: {
@@ -70,6 +73,7 @@ export const fields = {
             rtl: "image à gauche / texte à droite",
         }
     },
+    documents: "Documents",
     draft: "Brouillon",
     email: "Email",
     embed: "Embed",
@@ -149,7 +153,10 @@ export const fields = {
             center: "au centre",
         }
     },
-    pdf: "PDF",
+    pdf: {
+        label: "PDF",
+        hint: "Compresser le PDF avant de l’envoyer  https://www.adobe.com/fr/acrobat/online/compress-pdf.html"
+    },
     persons: "Personnes",
     phone: {
         label: "Téléphone",
@@ -168,6 +175,12 @@ export const fields = {
         hint: "Plusieurs personnes possible"
     },
     quote: "Citation",
+    realestates_persons: {
+        label: "Personnes responsables ?",
+        hint: "Plusieurs personnes possible"
+    },
+    realestates_sellers: "Vendeur du bien",
+    realestates_types: "Type de bien",
     section: "Type de section",
     show_color: {
         label: "Afficher des couleurs sur les jauges ?",
