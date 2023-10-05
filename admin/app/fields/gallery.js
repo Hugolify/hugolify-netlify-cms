@@ -12,7 +12,7 @@ export const gallery = {
     fields: [
         image_src,
         image_alt,
-        credit,
-        legend
+        legend,
+        credit
     ]
 };

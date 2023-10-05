@@ -64,7 +64,12 @@ export const fields = {
     cta_second: "Second bouton",
     darken: "Assombrir l’image",
     datas: "Données",
-    date: "Date de publication",
+    date: {
+        from: "De",
+        publish: "Date de publication",
+        title: "Date",
+        to: "à"
+    },
     description: "Description",
     direction: {
         label: "Direction",
@@ -145,6 +150,7 @@ export const fields = {
         label: "Icône",
         hint: "Le nom de l’icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
+    offer: "Offre",
     offset: {
         label: "Alignement",
         options: {
@@ -166,6 +172,10 @@ export const fields = {
     posts: "Actualités",
     prefix: "Préfixe",
     press: "Source de l’article",
+    price: {
+        label: "Prix",
+        hint: "ex: 300000 (pour 300 000 €)",
+    },
     projects: "Projets",
     projects_tags: "Tags",
     projects_types: "Types",
@@ -181,6 +191,7 @@ export const fields = {
     },
     realestates_sellers: "Vendeur du bien",
     realestates_types: "Type de bien",
+    reference: "Référence",
     section: "Type de section",
     show_color: {
         label: "Afficher des couleurs sur les jauges ?",
@@ -188,6 +199,7 @@ export const fields = {
     },
     show_gauge: "Afficher une jaune de progression ?",
     show_more: "Afficher un bouton pour découvrir plus d’éléments ?",
+    sold: "Vendu ?",
     state: {
         label: "État",
         options: {

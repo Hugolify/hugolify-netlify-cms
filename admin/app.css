@@ -167,6 +167,7 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
 [class*="-TopBarContainer"]{
     background: var(--grey) !important;
     padding: 5px !important;
+    position: relative;
 }
 [class*="TopBar-StyledListItemTopBar-StyledListItemTopBar"] button,
 [class*="TopBar-StyledListItemTopBar-StyledListItemTopBar"] > span {
@@ -200,6 +201,16 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
 [id^=images-field] > div:last-child > div:nth-child(3) {
     clear: left;
 }
+[id^=gallery-field] [class*="-ControlContainer"]:nth-child(2) + div:not(:last-child) {
+    float: left;
+    width: 49%;
+}
+[id^=gallery-field] [class*="-ControlContainer"]:nth-child(4) {
+    clear: none;
+    float: right;
+    width: 49%;
+}
+
 [id^=gallery-field] input[type="text"],
 [id^=image-field] input[type="text"],
 [id^=images-field] input[type="text"] {
@@ -235,6 +246,13 @@ div[id^=documents-field] {
 [id^=address-field] > div + div > div:last-child {
     flex-basis: 100%;
 }
+
+
+/* OFFER */
+[id^=offer-field] {
+    background-color: var(--lightgrey) !important;
+}
+
 
 
 

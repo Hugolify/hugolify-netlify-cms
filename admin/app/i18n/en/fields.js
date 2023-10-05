@@ -64,7 +64,12 @@ export const fields = {
     cta_second: "Secondary button",
     darken: "Darken image",
     datas: "Datas",
-    date: "Publication date",
+    date: {
+        from: "From",
+        publish: "Publication date",
+        title: "Date",
+        to: "To"
+    },
     description: "Description",
     direction: {
         label: "Direction",
@@ -80,6 +85,7 @@ export const fields = {
     expertises_items: "Expertises",
     featured_image: "Featured image",
     figure: "Image with legend",
+    files: "Files",
     gallery: "Image gallery",
     grid: {
         label: "Width on grid",
@@ -145,6 +151,7 @@ export const fields = {
         label: "Icon",
         hint: "Name of the icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
+    offer: "Offer",
     offset: {
         label: "Offset",
         options: {
@@ -166,6 +173,11 @@ export const fields = {
     posts: "News",
     prefix: "Prefix",
     press: "Article source",
+    price: {
+        label: "Price",
+        hint: "ex: 300000 (for 300 000 €)",
+        sold: "Sold price"
+    },
     projects: "Projects",
     projects_tags: "Tags",
     projects_types: "Types",
@@ -181,6 +193,7 @@ export const fields = {
     },
     realestates_sellers: "Seller",
     realestates_types: "Type of property",
+    reference: "Reference",
     section: "Type of section",
     show_color: {
         label: "Display colors on gauge?",
@@ -188,6 +201,7 @@ export const fields = {
     },
     show_gauge: "Display a progress gauge?",
     show_more: "Display a button to discover more elements?",
+    sold: "Sold?",
     state: {
         label: "State",
         options: {
