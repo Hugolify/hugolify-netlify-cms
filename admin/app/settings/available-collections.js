@@ -4,11 +4,12 @@ import tags from '../content/tags.js'
 import projects from '../content/projects.js'
 import projects_types from '../content/projects_types.js'
 import projects_tags from '../content/projects_tags.js'
-import casestudies from '../content/casestudies.js'
+import persons from '../content/persons.js'
 import publications from '../content/publications.js'
 import publications_categories from '../content/publications_categories.js'
-import persons from '../content/persons.js'
+import casestudies from '../content/casestudies.js'
 import expertises from '../content/expertises.js'
+import realestates from '../content/realestates.js'
 import places from '../content/places.js'
 
 export default [
@@ -18,10 +19,11 @@ export default [
     projects,
     projects_types,
     projects_tags,
-    casestudies,
-    publications,
-    publications_categories,
     persons,
+    //publications,
+    //publications_categories,
+    //casestudies,
     //expertises,
+    //realestates,
     //places
 ]

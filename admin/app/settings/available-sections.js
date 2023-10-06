@@ -1,8 +1,9 @@
 export const availableSections = [
     'posts' ,
-    'casestudies',
     'projects',
-    'publications',
+    // 'casestudies',
+    // 'expertises',
     // 'places',
-    // 'expertises'
+    // 'publications',
+    // 'realestates'
 ]
