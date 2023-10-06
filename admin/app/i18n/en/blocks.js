@@ -138,6 +138,7 @@ export const blocks = {
     selectedposts: "News selection",
     selectedprojects: "Projects selection",
     selectedpublications: "Publications selection",
+    selectedrealestates: "Real estates selection",
     testimonials: {
         label: "Testimonials",
         fields: {

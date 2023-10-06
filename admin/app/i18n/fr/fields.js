@@ -122,6 +122,26 @@ export const fields = {
         hint: "Compresser l’image avant de l’envoyer : https://tinypng.com/",
     },
     images: "Liste d’images",
+    informations: {
+        label: "Informations",
+        fields: {
+            area: {
+                label: "Surface intérieur",
+                hint: "Exprimé en m2",
+            },
+            bathrooms: "Nombre de salles de bain",
+            bedrooms: "Nombre de chambres",
+            field: {
+                label: "Surface extérieur",
+                hint: "Exprimé en m2",
+            },
+            floor: "Étage",
+            levels: "Nombre de niveaux",
+            rooms: "Nombre de pièces",
+            showerrooms: "Nombre de salles d’eau",
+            year: "Année de construction",
+        }
+    },
     instagram: {
         label: "Instagram",
         hint: "URL (https://…)",

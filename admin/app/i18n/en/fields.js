@@ -123,6 +123,26 @@ export const fields = {
         hint: "Compress image before sending: https://tinypng.com/",
     },
     images: "Image list",
+    informations: {
+        label: "Informations",
+        fields: {
+            area: {
+                label: "Interior area",
+                hint: "Expressed in m2",
+            },
+            bathrooms: "Number of bathrooms",
+            bedrooms: "Number of bedrooms",
+            field: {
+                label: "Exterior area",
+                hint: "Expressed in m2",
+            },
+            floor: "Floor",
+            levels: "Number of levels",
+            rooms: "Number of rooms",
+            showerrooms: "Number of shower rooms",
+            year: "Year of construction",
+        }
+    },
     instagram: {
         label: "Instagram",
         hint: "URL (https://…)",

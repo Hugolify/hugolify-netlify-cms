@@ -6,12 +6,12 @@ import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { realestates_persons } from '../fields/realestates_persons.js'
 import { realestates_types } from '../fields/realestates_types.js'
-import { realestates_sellers } from '../fields/realestates_sellers.js'
-import { featured_image } from '../fields/featured-image.js'
-import { address } from '../fields/address.js'
-import { gallery } from '../fields/gallery.js'
 import { offer } from '../fields/offer.js'
+import { informations } from '../fields/realestates-informations.js'
+import { address } from '../fields/address.js'
 import { documents } from '../fields/documents.js'
+import { featured_image } from '../fields/featured-image.js'
+import { gallery } from '../fields/gallery.js'
 import { body } from '../fields/body.js'
 import {t} from "../i18n/translater.js";
 
@@ -41,12 +41,12 @@ const realestates = {
         title,
         description,
         realestates_persons,
-        realestates_sellers,
         realestates_types,
         offer,
-        featured_image,
+        informations,
         address,
-        documents,
+        // documents,
+        featured_image,
         gallery,
         body
     ]
