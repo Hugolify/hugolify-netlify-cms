@@ -119,7 +119,7 @@ export const fields = {
     },
     image_src: {
         label: "Image",
-        hint: "Compresser l’image avant de l’envoyer : https://tinypng.com/",
+        hint: "Redimensionner et compresser l’image avant de l’envoyer : https://bulkresizephotos.com/fr?quality=0.90&type=width&value=1600",
     },
     images: "Liste d’images",
     informations: {
@@ -163,7 +163,7 @@ export const fields = {
     },
     logo: {
         label: "Logo",
-        hint: "Compresser l’image avant de l’envoyer : https://tinypng.com/"
+        hint: "Compresser le logo avant de l’envoyer : https://tinypng.com/"
     },
     location: "Localisation",
     material_icons: {
