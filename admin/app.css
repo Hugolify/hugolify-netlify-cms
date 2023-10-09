@@ -58,6 +58,12 @@ input[id*="color"] {
     padding-left: 0;
     text-transform: initial;
 }
+[class*=TopBarContainer] + div label {
+    font-size: 12px;
+}
+[class*="ControlContainer"] > label::after {
+    content: none;
+}
 [class*="ControlContainer"] > div {
     /* border: 1px dashed var(--grey); */
     background: transparent;
@@ -82,6 +88,10 @@ label + [class*="-DateTimeControl"] {
     font-weight: 600;
     text-transform: uppercase;
 }
+[class*="-ControlHint"] a {
+    font-size: 12px;
+}
+
 
 
 [class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"],
@@ -176,6 +186,16 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
 }
 
 
+/* TOGGLE FIELD */
+[class*=-ControlContainer]:has(> div > [class*=-ToggleContainer]) {
+    display: flex;
+    white-space: nowrap;
+}
+div:has(> [class*=-ToggleContainer]) {
+    padding-top: 5px;
+}
+ 
+
 /* IMAGE FIELD */
 [class*="-ImageWrapper-checkerboard"] {
     float: left;
@@ -237,7 +257,7 @@ div[id^=documents-field] {
     justify-content: space-between;
 }
 [id^=address-field] > div + div > div {
-    flex-basis: 33%;
+    flex-basis: 32%;
 }
 [id^=coordinates-field] > div + div > div {
     flex-basis: 49%;
@@ -258,7 +278,7 @@ div[id^=documents-field] {
     justify-content: space-between;
 }
 [id^=informations-field] > div + div > div {
-    flex-basis: 33%;
+    flex-basis: 32%;
 }
 
 
@@ -266,17 +286,34 @@ div[id^=documents-field] {
 [id^=offer-field] {
     background-color: var(--lightgrey) !important;
 }
-
-
-/* TAXONOMIES */ 
-[class*=-ControlContainer]:has([id^=realestates_persons]) {
+[id^=offer-field] > div {
+    overflow: hidden;
+}
+[id^=offer-field] [class*=-ControlContainer]:has(> [id^=price-field]) {
     float: left;
     width: 49%;
 }
-[class*=-ControlContainer]:has([id^=realestates_types]) {
+[id^=offer-field] [class*=-ControlContainer]:has(> [id^=status-field]) {
     clear: none;
     float: right;
     width: 49%;
+}
+
+/* TAXONOMIES */ 
+[class*=-ControlContainer]:has([id^=reference]) {
+    float: left;
+    margin-right: 2%;
+    width: 30%;
+}
+[class*=-ControlContainer]:has([id^=realestates_types]) {
+    clear: none;
+    float: left;
+    width: 30%;
+}
+[class*=-ControlContainer]:has([id^=realestates_persons]) {
+    clear: none;
+    float: right;
+    width: 36%;
 }
 
 

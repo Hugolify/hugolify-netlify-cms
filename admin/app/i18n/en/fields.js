@@ -194,9 +194,9 @@ export const fields = {
     prefix: "Prefix",
     press: "Article source",
     price: {
+        hide: "Hide price",
         label: "Price",
-        hint: "ex: 300000 (for 300 000 €)",
-        sold: "Sold price"
+        hint: "ex: 300000 (for 300 000 €)"
     },
     projects: "Projects",
     projects_tags: "Tags",
@@ -213,6 +213,10 @@ export const fields = {
     },
     realestates_sellers: "Seller",
     realestates_types: "Type of property",
+    realestates_status: {
+        label: "Status",
+        hint: "ex: Consult us",
+    },
     reference: "Reference",
     section: "Type of section",
     show_color: {

@@ -193,6 +193,7 @@ export const fields = {
     prefix: "Préfixe",
     press: "Source de l’article",
     price: {
+        hide: "Cacher le prix",
         label: "Prix",
         hint: "ex: 300000 (pour 300 000 €)",
     },
@@ -210,6 +211,10 @@ export const fields = {
         hint: "Plusieurs personnes possible"
     },
     realestates_sellers: "Vendeur du bien",
+    realestates_status: {
+        label: "Statut",
+        hint: "ex: Nous consulter",
+    },
     realestates_types: "Type de bien",
     reference: "Référence",
     section: "Type de section",
