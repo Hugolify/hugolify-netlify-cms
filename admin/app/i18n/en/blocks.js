@@ -97,6 +97,7 @@ export const blocks = {
         }
     },
     latest: "Latest items (news, projects…)",
+    latestrealestates: "Latest adds",
     map: "Map",
     newsletter: {
         label: "Newsletter",

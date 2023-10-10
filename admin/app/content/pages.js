@@ -33,8 +33,8 @@ const pages = {
         description,
         featured_image,
         hero,
-        body,
-        blocks
+        blocks,
+        body
     ],
     meta: { path: { label: t.content.pages.meta.parent, widget: 'parent', index_file: '_index' } }
 }
