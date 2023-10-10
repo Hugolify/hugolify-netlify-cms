@@ -299,6 +299,21 @@ div[id^=documents-field] {
     width: 49%;
 }
 
+/* Keyfeatures */
+[id^=keyfeatures-field] {
+    background-color: var(--lightgrey) !important;
+}
+[id^=keyfeatures-field] [class*=-ControlContainer]:has(> [id^=title-field]) {
+    clear: none;
+    float: left;
+    width: 49%;
+}
+[id^=keyfeatures-field] [class*=-ControlContainer]:has(> [id^=icon-field]) {
+    float: right;
+    width: 49%;
+}
+
+
 /* TAXONOMIES */ 
 [class*=-ControlContainer]:has([id^=reference]) {
     float: left;

@@ -111,7 +111,7 @@ export const fields = {
     },
     icon: {
         label: "Icon",
-        hint: "Name of the icon, doc : https://icons.getbootstrap.com/font/",
+        hint: "Name of the icon, doc : https://icons.getbootstrap.com/#icons",
     },
     image: "Image",
     image_alt: {
@@ -132,6 +132,7 @@ export const fields = {
             },
             bathrooms: "Number of bathrooms",
             bedrooms: "Number of bedrooms",
+            district: "District",
             field: {
                 label: "Exterior area",
                 hint: "Expressed in m2",
@@ -150,6 +151,10 @@ export const fields = {
     is_index: "Is index?",
     is_not_index: "Is not index?",
     is_page: "Is page?",
+    keyfeatures: {
+        label: "Key features",
+        hint: "e.g.: Location, light…",
+    },
     layout: "Layout",
     layout_blocks: "Layout",
     legend: "Legend",
@@ -196,7 +201,7 @@ export const fields = {
     price: {
         hide: "Hide price",
         label: "Price",
-        hint: "ex: 300000 (for 300 000 €)"
+        hint: "e.g.: 300000 (for 300 000 €)"
     },
     projects: "Projects",
     projects_tags: "Tags",
@@ -215,7 +220,7 @@ export const fields = {
     realestates_types: "Type of property",
     realestates_status: {
         label: "Status",
-        hint: "ex: Consult us",
+        hint: "e.g.: Consult us",
     },
     reference: "Reference",
     section: "Type of section",

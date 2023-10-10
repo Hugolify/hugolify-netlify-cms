@@ -110,7 +110,7 @@ export const fields = {
     },
     icon: {
         label: "Icône",
-        hint: "Le nom de l’icône, doc : https://icons.getbootstrap.com/font/",
+        hint: "Le nom de l’icône, doc : https://icons.getbootstrap.com/#icons",
     },
     image: "Image",
     image_alt: {
@@ -131,6 +131,7 @@ export const fields = {
             },
             bathrooms: "Nombre de salles de bain",
             bedrooms: "Nombre de chambres",
+            district: "Quartier",
             field: {
                 label: "Surface extérieur",
                 hint: "Exprimé en m2",
@@ -149,6 +150,10 @@ export const fields = {
     is_index: "Est un index ?",
     is_not_index: "N'est pas un index ?",
     is_page: "Est une page ?",
+    keyfeatures: {
+        label: "Caractéristiques principales",
+        hint: "ex: Emplacement, lumière…",
+    },
     layout: "Layout",
     layout_blocks: "Layout",
     legend: "Légende",

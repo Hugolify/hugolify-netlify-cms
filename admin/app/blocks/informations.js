@@ -1,5 +1,5 @@
 import { heading } from '../fields/heading.js'
-import { icons } from '../fields/icons.js'
+import { icon } from '../fields/icon.js'
 import { image_src } from '../fields/image-src.js'
 import { image_alt } from '../fields/image-alt.js'
 import { title } from '../fields/title.js'
@@ -30,7 +30,7 @@ export const block_informations = {
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                icons,
+                icon,
                 {
                     name: 'image',
                     label: t.blocks.informations.fields.items.fields.image.label,

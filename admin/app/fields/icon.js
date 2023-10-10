@@ -1,6 +1,6 @@
 import {t} from "../i18n/translater.js";
 
-export const icons = {
+export const icon = {
     name: 'icon',
     label: t.fields.icon.label,
     widget: 'string',
