@@ -4,6 +4,7 @@ export const blocks = {
         label: "Blocs de contenu",
         label_singular: "Bloc de contenu",
     },
+    carousel: "Carrousel",
     chart: "Graphique (Camembert, barre…)",
     cta: "Appel à l’action (Bouton)",
     datas: {
@@ -102,18 +103,10 @@ export const blocks = {
     newsletter: {
         label: "Newsletter",
         fields: {
-            platform: {
-                label: "Plateforme",
-                options: {
-                    sendinblue: "Brevo (ex Sendinblue)",
-                    mailchimp: "Mailchimp",
-                }
-            },
+            form: "Formulaire",
+            url: "URL du formulaire",
             hiddens: {
-                label: "Champ caché du formulaire",
-                fields: {
-                    name: 'Nom'
-                }
+                label: "Champ caché du formulaire"
             }
         }
     },

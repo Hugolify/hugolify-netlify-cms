@@ -1,6 +1,8 @@
 import { heading } from '../fields/heading.js'
 import { quote } from '../fields/quote.js'
 import { author } from '../fields/author.js'
+import { layout } from '../fields/layout.js'
+import { carousel } from '../fields/carousel.js'
 import { background } from '../fields/background.js'
 import {t} from "../i18n/translater.js";
 
@@ -28,6 +30,8 @@ export const block_testimonials = {
                 author
             ]
         },
+        layout,
+        carousel,
         background
     ]
 }

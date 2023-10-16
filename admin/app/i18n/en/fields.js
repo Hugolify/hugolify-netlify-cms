@@ -28,6 +28,44 @@ export const fields = {
     background_color: "Background color",
     blank: "Open in new page?",
     body: "Body",
+    carousel: {
+        label: "Carousel configuration",
+        fields: {
+            arrows: "Arrows",
+            autoplay: "Autoplay",
+            breakpoints: {
+                label: "Breakpoints",
+                hint: "Screen dimension (maximum)",
+                options: {
+                    mobile: "Mobile",
+                    tablet: "Tablet",
+                    wide_tablet: "Wide tablet",
+                    laptop: "Laptop",
+                    desktop: "Desktop",
+                }
+            },
+            focus: {
+                label: "Focus",
+                hint: "Le slide actif est-il au centre de l’écran ?"
+            },
+            gap: {
+                label: "Padding",
+                hint: "The gap between slides. In rem value."
+            },
+            padding: {
+                label: "Padding",
+                hint: "Padding left/right of the carousel. In rem value"
+            },
+            pagination: "Pagination",
+            params: "Params",
+            perPage: {
+                label: "Per page",
+                hint: "Number of slides to display"
+            },
+            responsive: "Responsive",
+            type: "Type",
+        }
+    },
     casestudies: "Case studies",
     categories: "Categories",
     chart: {
@@ -155,7 +193,13 @@ export const fields = {
         label: "Key features",
         hint: "e.g.: Location, light…",
     },
-    layout: "Layout",
+    layout: {
+        label: "Layout",
+        options: {
+            carousel: "Carousel",
+            grid: "Grid"
+        }
+    },
     layout_blocks: "Layout",
     legend: "Legend",
     limit: {
@@ -176,6 +220,7 @@ export const fields = {
         label: "Icon",
         hint: "Name of the icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
+    name: "Name",
     offer: "Offer",
     offset: {
         label: "Offset",

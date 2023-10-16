@@ -189,10 +189,12 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
 /* TOGGLE FIELD */
 [class*=-ControlContainer]:has(> div > [class*=-ToggleContainer]) {
     display: flex;
+    flex-wrap: wrap;
     white-space: nowrap;
 }
 div:has(> [class*=-ToggleContainer]) {
     padding-top: 5px;
+    width: auto
 }
  
 
@@ -298,6 +300,21 @@ div[id^=documents-field] {
     float: right;
     width: 49%;
 }
+
+/* CAROUSEL */
+[id^=params-field] [class*=-ControlContainer] {
+    clear: none;
+    float: left;
+    margin-right: 2%;
+    width: 32%;
+}
+[id^=params-field] [class*=-ControlContainer]:nth-child(3n+1) {
+    clear: left;
+}
+[id^=params-field] [class*=-ControlContainer]:nth-child(3n) {
+    margin-right: 0;
+}
+
 
 /* Keyfeatures */
 [id^=keyfeatures-field] {

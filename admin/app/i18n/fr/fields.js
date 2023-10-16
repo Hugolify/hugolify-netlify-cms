@@ -28,6 +28,44 @@ export const fields = {
     background_color: "Couleur du fond",
     blank: "Ouvrir le lien dans une nouvelle fenêtre ?",
     body: "Contenu",
+    carousel: {
+        label: "Configuration du carrousel",
+        fields: {
+            arrows: "Flêches",
+            autoplay: "Autoplay",
+            breakpoints: {
+                label: "Breakpoints",
+                hint: "Dimension de l’écran (maximum)",
+                options: {
+                    mobile: "Mobile",
+                    tablet: "Tablet",
+                    wide_tablet: "Tablet large",
+                    laptop: "Portable",
+                    desktop: "Bureau",
+                }
+            },
+            focus: {
+                label: "Focus",
+                hint: "Le slide actif est-il au centre de l’écran ?"
+            },
+            gap: {
+                label: "Goutière",
+                hint: "L’écart entre les slides (exprimé en rem)"
+            },
+            padding: {
+                label: "Espace",
+                hint: "Espace gauche/droite du carrousel (exprimé en rem)"
+            },
+            pagination: "Pagination",
+            params: "Paramètres",
+            perPage: {
+                label: "Par page",
+                hint: "Nombre d’élément affiché à l’écran"
+            },
+            responsive: "Responsive",
+            type: "Type",
+        }
+    },
     casestudies: "Cas d’études",
     categories: "Catégories",
     chart: {
@@ -96,7 +134,7 @@ export const fields = {
         }
     },
     half: "Demi-taille ?",
-    heading: "Titre",
+    heading: "En-tête",
     hero: {
         label: "Hero",
         fields: {
@@ -154,7 +192,13 @@ export const fields = {
         label: "Caractéristiques principales",
         hint: "ex: Emplacement, lumière…",
     },
-    layout: "Layout",
+    layout: {
+        label: "Affichage",
+        options: {
+            carousel: "Carrousel",
+            grid: "Grille"
+        }
+    },
     layout_blocks: "Layout",
     legend: "Légende",
     limit: {
@@ -175,6 +219,7 @@ export const fields = {
         label: "Icône",
         hint: "Le nom de l’icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons"
     },
+    name: "Nom",
     offer: "Offre",
     offset: {
         label: "Alignement",
