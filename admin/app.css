@@ -334,6 +334,19 @@ div[id^=documents-field] {
     width: 49%;
 }
 
+/* Diagnostic */
+[id^=diagnostic-field] {
+    background-color: var(--lightgrey) !important;
+}
+[id^=diagnostic-field] > div + div:not([class^=css]) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+[id^=diagnostic-field] > div > div {
+    width: 49%;
+}
+
 
 /* TAXONOMIES */ 
 [class*=-ControlContainer]:has([id^=reference]) {

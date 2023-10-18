@@ -10,6 +10,7 @@ import { offer } from '../fields/offer.js'
 import { informations } from '../fields/realestates-informations.js'
 import { address } from '../fields/address.js'
 import { keyfeatures } from '../fields/keyfeatures.js'
+import { diagnostic } from '../fields/diagnostic.js'
 import { documents } from '../fields/documents.js'
 import { featured_image } from '../fields/featured-image.js'
 import { gallery } from '../fields/gallery.js'
@@ -45,6 +46,7 @@ const realestates = {
         realestates_persons,
         offer,
         informations,
+        diagnostic,
         keyfeatures,
         address,
         // documents,

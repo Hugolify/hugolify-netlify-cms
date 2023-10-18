@@ -109,6 +109,13 @@ export const fields = {
         to: "To"
     },
     description: "Description",
+    diagnostic: {
+        label: "Diagnostic",
+        fields: {
+            dpe: "DPE: kWh/m2.year",
+            ges: "GES: CO2/m2.year"
+        }
+    },
     direction: {
         label: "Direction",
         options: {
