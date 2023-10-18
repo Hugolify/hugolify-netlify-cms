@@ -230,6 +230,7 @@ export const fields = {
             center: "at center",
         }
     },
+    pages: "Pages",
     pdf: {
         label: "PDF",
         hint: "Compress PDF before sending: https://www.adobe.com/fr/acrobat/online/compress-pdf.html"
