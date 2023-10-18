@@ -265,7 +265,7 @@ export const fields = {
         label: "Statut",
         hint: "ex: Nous consulter",
     },
-    realestates_types: "Type de bien",
+    realestates_categories: "Type de bien",
     reference: "Référence",
     section: "Type de section",
     show_color: {

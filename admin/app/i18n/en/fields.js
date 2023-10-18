@@ -262,7 +262,7 @@ export const fields = {
         hint: "Several persons possible"
     },
     realestates_sellers: "Seller",
-    realestates_types: "Type of property",
+    realestates_categories: "Type of property",
     realestates_status: {
         label: "Status",
         hint: "e.g.: Consult us",

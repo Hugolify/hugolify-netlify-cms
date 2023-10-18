@@ -81,7 +81,7 @@ export const content = {
         label_singular: "Vendeur",
         description: "Tous les vendeurs"
     },
-    realestates_types: {
+    realestates_categories: {
         label: "Types d’annonce",
         label_singular: "Type",
         description: "Tous les types d’annonce"

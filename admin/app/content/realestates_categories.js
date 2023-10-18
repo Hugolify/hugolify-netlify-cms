@@ -2,12 +2,12 @@ import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
 import {t} from "../i18n/translater.js";
 
-const realestates_types = {
-    name: 'realestates_types',
-    folder: 'content/realestates_types',
-    label: t.content.realestates_types.label,
-    label_singular: t.content.realestates_types.label_singular,
-    description: t.content.realestates_types.description,
+const realestates_categories = {
+    name: 'realestates_categories',
+    folder: 'content/realestates_categories',
+    label: t.content.realestates_categories.label,
+    label_singular: t.content.realestates_categories.label_singular,
+    description: t.content.realestates_categories.description,
     
     create: true,
     editor: { preview: false },
@@ -26,4 +26,4 @@ const realestates_types = {
 
 }
 
-export default realestates_types
+export default realestates_categories

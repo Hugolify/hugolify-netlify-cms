@@ -1,10 +1,10 @@
 import {t} from "../i18n/translater.js";
 
-export const realestates_types = {
-    name: 'realestates_types',
-    label: t.fields.realestates_types,
+export const realestates_categories = {
+    name: 'realestates_categories',
+    label: t.fields.realestates_categories,
     widget: 'relation',
-    collection: 'realestates_types',
+    collection: 'realestates_categories',
     search_fields: ['title'],
     value_field: 'title',
     display_fields: ['title'],

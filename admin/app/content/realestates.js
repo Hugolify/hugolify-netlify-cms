@@ -5,7 +5,7 @@ import { reference } from '../fields/reference.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { realestates_persons } from '../fields/realestates_persons.js'
-import { realestates_types } from '../fields/realestates_types.js'
+import { realestates_categories } from '../fields/realestates_categories.js'
 import { offer } from '../fields/offer.js'
 import { informations } from '../fields/realestates-informations.js'
 import { address } from '../fields/address.js'
@@ -41,7 +41,7 @@ const realestates = {
         title,
         description,
         reference,
-        realestates_types,
+        realestates_categories,
         realestates_persons,
         offer,
         informations,

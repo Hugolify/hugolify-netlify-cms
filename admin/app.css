@@ -148,7 +148,7 @@ label + [class*="-DateTimeControl"] {
     margin-top: var(--margin) !important;
 }
 [class*="ControlContainer"] {
-    clear: left;
+    clear: both;
 }
 
 [class*="-control"] {
@@ -269,6 +269,10 @@ div[id^=documents-field] {
     flex-basis: 100%;
 }
 
+/* CONTACT FIELD */
+[id^=contact-field] {
+    background-color: var(--lightgrey) !important;
+}
 
 /* INFORMATIONS */
 [id^=informations-field] {
@@ -337,7 +341,7 @@ div[id^=documents-field] {
     margin-right: 2%;
     width: 30%;
 }
-[class*=-ControlContainer]:has([id^=realestates_types]) {
+[class*=-ControlContainer]:has([id^=realestates_categories]) {
     clear: none;
     float: left;
     width: 30%;
@@ -443,6 +447,6 @@ aside [href="#/collections/realestates"] span::before {
 aside [href="#/collections/realestates_sellers"] span::before {
     content: '\F705';
 }
-aside [href="#/collections/realestates_types"] span::before {
+aside [href="#/collections/realestates_categories"] span::before {
     content: '\F1A4';
 }
