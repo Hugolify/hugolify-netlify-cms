@@ -463,3 +463,6 @@ aside [href="#/collections/realestates_sellers"] span::before {
 aside [href="#/collections/realestates_categories"] span::before {
     content: '\F1A4';
 }
+aside [href="#/collections/services"] span::before {
+    content: '\F4D6';
+}
