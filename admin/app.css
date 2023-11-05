@@ -466,3 +466,6 @@ aside [href="#/collections/realestates_categories"] span::before {
 aside [href="#/collections/services"] span::before {
     content: '\F4D6';
 }
+aside [href="#/collections/services_categories"] span::before {
+    content: '\F1A4';
+}

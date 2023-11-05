@@ -278,6 +278,7 @@ export const fields = {
     reference: "Reference",
     section: "Type of section",
     services: "Services",
+    services_categories: "Category of service",
     show_color: {
         label: "Display colors on gauge?",
         hint: "Color in red, yellow or green in function of value (if gauge checked)"
