@@ -279,6 +279,10 @@ export const fields = {
     section: "Type of section",
     services: "Services",
     services_categories: "Category of service",
+    services_persons: {
+        label: "Responsible persons?",
+        hint: "Several persons possible"
+    },
     show_color: {
         label: "Display colors on gauge?",
         hint: "Color in red, yellow or green in function of value (if gauge checked)"
