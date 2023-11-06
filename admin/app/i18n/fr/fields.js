@@ -259,7 +259,7 @@ export const fields = {
     projects_tags: "Tags",
     projects_types: "Types",
     publications: "Parutions",
-    publications_concerned: {
+    publications_persons: {
         label: "Personnes concernées ?",
         hint: "Plusieurs personnes possible"
     },
