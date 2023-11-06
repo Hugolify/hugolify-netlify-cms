@@ -2,7 +2,9 @@
 
 ## Table of contents
 
+- [Settings](#settings)
 - [Features](#features)
+- [Extras features](#extras-features)
 - [Screenshot](#screenshot)
 - [Linked repository](#linked-repository)
 - [Live demo](#live-demo)
