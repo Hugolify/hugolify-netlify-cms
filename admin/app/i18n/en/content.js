@@ -86,6 +86,16 @@ export const content = {
         label_singular: "Type",
         description: "All real estate types"
     },
+    services: {
+        label: "Services",
+        label_singular: "Service",
+        description: "All services",
+    },
+    services_categories: {
+        label: "Categories of services",
+        label_singular: "Category of services",
+        description: "All categories of services",
+    },
     tags: {
         label: "Tags",
         label_singular: "Tag",

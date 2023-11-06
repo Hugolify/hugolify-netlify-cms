@@ -86,6 +86,16 @@ export const content = {
         label_singular: "Type",
         description: "Tous les types d’annonce"
     },
+    services: {
+        label: "Services",
+        label_singular: "Service",
+        description: "Tous les services",
+    },
+    services_categories: {
+        label: "Catégories de services",
+        label_singular: "Catégorie de services",
+        description: "Toutes les catégories de services",
+    },
     tags: {
         label: "Tags",
         label_singular: "Tag",

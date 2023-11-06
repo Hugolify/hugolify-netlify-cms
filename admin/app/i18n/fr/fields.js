@@ -276,6 +276,12 @@ export const fields = {
     realestates_categories: "Type de bien",
     reference: "Référence",
     section: "Type de section",
+    services: "Services",
+    services_categories: "Catégorie de service",
+    services_persons: {
+        label: "Personnes responsables ?",
+        hint: "Plusieurs personnes possible"
+    },
     show_color: {
         label: "Afficher des couleurs sur les jauges ?",
         hint: "Colore en rouge, jaune ou vert en fonction de la valeur (si jauge coché)"

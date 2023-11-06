@@ -6,4 +6,5 @@ export const availableSections = [
     // 'places',
     // 'publications',
     // 'realestates'
+    // 'services',
 ]
