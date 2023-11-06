@@ -28,8 +28,6 @@ https://github.com/Hugolify/hugolify-netlify-cms/tree/main/admin/app/settings
 - posts
   - categories (posts taxonomy)
   - tags (posts taxonomy)
-- publications
-- casestudies
 - persons
 - config
   - menu `create false`
@@ -39,6 +37,18 @@ https://github.com/Hugolify/hugolify-netlify-cms/tree/main/admin/app/settings
     - social
   - top banner
   - seo
+ 
+## Extras features
+- casestudies
+- expertises
+- place
+- publications
+  - categories (publications taxonomy)
+- realestates
+  - categories (realestates taxonomy)
+- services
+  - categories (services taxonomy)
+  - persons (services taxonomy)
 
 ## Screenshot
 ![Home](https://user-images.githubusercontent.com/4457294/207929597-f0d02e09-d2ee-44ca-8c65-efad0293356b.png)
