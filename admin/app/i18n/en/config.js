@@ -6,17 +6,18 @@ export const config = {
         legal: "Legal menu (notice, conditions…)",
         social: "Menu social networks",
         banner: "Information banner at the top of the site",
+        footer: "Information text at the bottom of the site",
         seo: {
-            label: "SEO",
+            label: "SEO global",
             fields: {
                 title: "Name of site"
             }
         },
-        socials: "SEO: Social networks",
         analytics: {
             label: "Scripts analytics",
             fields: {
-                googleAnalytics: "Google Analytics (G4)"
+                googleAnalytics: "Google Analytics (G4)",
+                plausible: "Enable plausible?"
             }
         }
     }

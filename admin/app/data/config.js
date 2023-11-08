@@ -1,8 +1,11 @@
+import { title } from '../fields/title.js'
 import { links } from '../fields/links.js'
 import { description } from '../fields/description.js'
+import { text_area } from '../fields/text-area.js'
 import { text_markdown } from '../fields/text-markdown.js'
 import { state } from '../fields/state.js'
 import { image_src } from '../fields/image-src.js'
+import { cta } from '../fields/cta.js'
 import { twitter } from '../fields/twitter.js'
 import {t} from "../i18n/translater.js";
 
@@ -32,6 +35,7 @@ const config = {
             file: 'data/menu/secondary.yml',
             i18n: true,
             fields: [
+                title,
                 links
             ]
         },
@@ -64,6 +68,17 @@ const config = {
             ]
         },
         {
+            name: 'footer',
+            label: t.config.files.footer,
+            file: 'data/footer.yml',
+            i18n: true,
+            fields: [
+                title,
+                text_area,
+                cta
+            ]
+        },
+        {
             name: 'seo',
             label: t.config.files.seo.label,
             file: 'data/seo.yml',
@@ -71,15 +86,7 @@ const config = {
             fields: [
                 { name: 'title', label: t.config.files.seo.fields.title, widget: 'string', i18n: true },
                 description,
-                image_src
-            ]
-        },
-        {
-            name: 'socials',
-            label: t.config.files.social,
-            file: 'config/_default/social.yaml',
-            i18n: true,
-            fields: [
+                image_src,
                 twitter
             ]
         },
@@ -98,7 +105,6 @@ const config = {
                 }
             ]
         }
-
     ]
 
 }
