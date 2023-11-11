@@ -1,9 +1,9 @@
 /* global CMS */
-import { image_src } from '../../fields/image-src.js'
-import { image_alt } from '../../fields/image-alt.js'
-import { legend } from '../../fields/legend.js'
-import { credit } from '../../fields/credit.js'
-import {t} from "../../i18n/translater.js";
+import { credit } from '../../fields/credit.js';
+import { image_alt } from '../../fields/image-alt.js';
+import { image_src } from '../../fields/image-src.js';
+import { legend } from '../../fields/legend.js';
+import { t } from "../../i18n/translater.js";
 
 CMS.registerEditorComponent({
     id: 'figure',
@@ -14,19 +14,19 @@ CMS.registerEditorComponent({
         legend,
         credit
     ],
-    pattern: /{{< figure (.*?) >}}/,
+    pattern: /{{< figure src="(.*?)" alt="(.*?)" legend="(.*?)" credit="(.*?)" >}}/,
     fromBlock: function (match) {
         return {
-            src: match[1],
-            alt: match[2],
-            legend: match[3],
-            credit: match[4]
+            src: match[1] ?? '',
+            alt: match[2] ?? '',
+            legend: match[3] ?? '',
+            credit: match[4] ?? ''
         };
     },
     toBlock: function (obj) {
-        return `{{< figure src="${obj.src}" alt="${obj.alt}" legend="${obj.legend}" credit="${obj.credit}" >}}`;
+        return `{{< figure src="${obj.src ?? ''}" alt="${obj.alt ?? ''}" legend="${obj.legend ?? ''}" credit="${obj.credit ?? ''}" >}}`;
     },
     toPreview: function (obj) {
-        return `{{< figure src="${obj.src}" alt="${obj.alt}" legend="${obj.legend}" credit="${obj.credit}" >}}`;
+        return `{{< figure src="${obj.src ?? ''}" alt="${obj.alt ?? ''}" legend="${obj.legend ?? ''}" credit="${obj.credit ?? ''}" >}}`;
     }
 });
