@@ -3,10 +3,12 @@ import { description } from '../fields/description.js'
 import { draft } from '../fields/draft.js'
 import { featured_image } from '../fields/featured-image.js'
 import { isNotIndex } from '../fields/is-not-index.js'
+import { price_per_unit } from '../fields/price_per_unit.js'
 import { services_categories } from '../fields/services_categories.js'
 import { services_persons } from '../fields/services_persons.js'
 import { title } from '../fields/title.js'
 import { t } from '../i18n/translater.js'
+
 
 const services = {
     name: 'services',
@@ -32,6 +34,7 @@ const services = {
         title,
         services_categories,
         services_persons,
+        price_per_unit,
         description,
         body,
         featured_image
