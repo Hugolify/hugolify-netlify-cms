@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="app.css" />
     <title>Hugolify - Content Manager</title>
+    <style>
+      /** Workaround to fix https://github.com/decaporg/decap-cms/issues/5092#issuecomment-1256321540 **/
+      [data-slate-editor] { 
+          -webkit-user-modify: read-write !important; 
+      }
+    </style>
   </head>
   <body>
     <!-- Include the script that enables Netlify Identity on this page. -->
