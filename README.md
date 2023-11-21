@@ -1,3 +1,7 @@
+**This is a old module, now get https://github.com/Hugolify/hugolify-decap-cms**
+
+---
+
 # Hugo Netlify CMS
 
 ## Table of contents
